@@ -1,0 +1,320 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true"
+    tools:context="com.example.shoaibiqbal.takecare.MainPage">
+
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <android.support.design.widget.AppBarLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:theme="@style/AppTheme.AppBarOverlay">
+
+            <android.support.v7.widget.Toolbar
+                android:id="@+id/docProfileToolbar"
+                android:layout_width="match_parent"
+                android:layout_height="?attr/actionBarSize"
+                android:background="#00b8d4"
+                app:popupTheme="@style/AppTheme.PopupOverlay" />
+
+        </android.support.design.widget.AppBarLayout>
+
+        <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:paddingLeft="5dp"
+            android:paddingRight="5dp"
+            android:paddingTop="10dp"
+            android:paddingBottom="10dp">
+
+            <Button
+                style="?android:attr/buttonStyleSmall"
+                android:layout_width="wrap_content"
+                android:layout_height="40dp"
+                android:text="Recommend"
+                android:textSize="12dp"
+                android:id="@+id/button_doc_rec"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentTop="true" />
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/button_doc_rec"
+                android:id="@+id/image_doctor"
+                android:src="@drawable/ic_launcher"
+                android:layout_marginRight="16dp"/>
+
+            <TextView
+                android:id="@+id/tv_prof_doctor_name"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text="Dr. Hameed Suffian"
+                android:layout_toRightOf="@id/image_doctor"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="10dp"
+                android:layout_alignTop="@id/image_doctor"/>
+
+            <TextView
+                android:id="@+id/tv_prof_doctor_post"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="General Surgeon"
+                android:layout_marginTop="5dp"
+                android:layout_toRightOf="@id/image_doctor"
+                android:layout_below="@+id/tv_doctor_name"
+                android:layout_above="@+id/tv_prof_doctor_exp"
+                android:layout_marginBottom="5dp"/>
+
+            <TextView
+                android:id="@+id/tv_prof_doctor_exp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:text="16 Years Experience"
+                android:layout_toRightOf="@id/image_doctor"
+                android:paddingBottom="5dp"
+                android:layout_alignBottom="@+id/image_doctor"/>
+
+            <View
+                android:layout_width="match_parent"
+                android:id="@+id/doc_prof_div1"
+                android:layout_height="1dp"
+                android:layout_marginTop="5dp"
+                android:background="@android:color/darker_gray"
+                android:layout_below="@+id/image_doctor"/>
+
+            <TextView
+                android:id="@+id/heading_qualification"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:text="QUALIFICATIONS"
+                android:layout_below="@id/doc_prof_div1"
+                android:layout_marginTop="5dp"
+                android:textColor="#00838f" />
+                <!-- android:textColor="#FF0D47A1" nice blue -->
+
+            <View
+                android:layout_width="match_parent"
+                android:id="@+id/doc_prof_div2"
+                android:layout_height="1dp"
+                android:layout_marginTop="5dp"
+                android:background="@android:color/darker_gray"
+                android:layout_below="@+id/heading_qualification"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/listQualifications"
+                android:orientation="vertical"
+                android:layout_below="@id/doc_prof_div2"
+                android:layout_marginLeft="30dp">
+            </LinearLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:id="@+id/doc_prof_div3"
+                android:layout_height="1dp"
+                android:layout_marginTop="5dp"
+                android:background="@android:color/darker_gray"
+                android:layout_below="@+id/listQualifications"/>
+
+
+            <TextView
+                android:id="@+id/heading_specialities"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:text="SPECIALITIES"
+                android:layout_below="@id/doc_prof_div3"
+                android:layout_marginTop="5dp"
+                android:textColor="#00838f"/>
+
+            <View
+                android:layout_width="match_parent"
+                android:id="@+id/doc_prof_div4"
+                android:layout_height="1dp"
+                android:layout_marginTop="5dp"
+                android:background="@android:color/darker_gray"
+                android:layout_below="@+id/heading_specialities"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/listDocSpecialities"
+                android:orientation="vertical"
+                android:layout_below="@id/doc_prof_div4"
+                android:layout_marginLeft="30dp">
+            </LinearLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:id="@+id/doc_prof_div5"
+                android:layout_height="1dp"
+                android:layout_marginTop="5dp"
+                android:background="@android:color/darker_gray"
+                android:layout_below="@+id/listDocSpecialities"/>
+
+            <TextView
+                android:id="@+id/heading_fee"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:text="CONSULTING FEE: "
+                android:layout_below="@id/doc_prof_div5"
+                android:layout_marginTop="5dp"
+                android:textColor="#00838f"/>
+
+            <TextView
+                android:id="@+id/text_fee_value"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:layout_below="@id/doc_prof_div5"
+                android:textColor="#212121"
+                android:layout_marginTop="5dp"
+                android:layout_toRightOf="@id/heading_fee"
+                />
+
+            <View
+                android:layout_width="match_parent"
+                android:id="@+id/doc_prof_div6"
+                android:layout_height="1dp"
+                android:layout_marginTop="5dp"
+                android:background="@android:color/darker_gray"
+                android:layout_below="@+id/heading_fee"/>
+
+            <TextView
+                android:id="@+id/heading_schedule"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:text="CLINIC SCHEDULES"
+                android:layout_below="@id/doc_prof_div6"
+                android:layout_marginTop="5dp"
+                android:textColor="#00838f"/>
+
+            <View
+                android:layout_width="match_parent"
+                android:id="@+id/doc_prof_div7"
+                android:layout_height="1dp"
+                android:layout_marginTop="5dp"
+                android:background="@android:color/darker_gray"
+                android:layout_below="@+id/heading_schedule"/>
+
+            <TextView
+                android:id="@+id/heading_clinic_name"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="#212121"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:layout_below="@+id/doc_prof_div7"
+                android:layout_marginLeft="15dp"/>
+
+            <!--
+            <View
+                android:layout_width="match_parent"
+                android:id="@+id/doc_prof_div8"
+                android:layout_height="1dp"
+                android:layout_marginTop="5dp"
+                android:background="@android:color/darker_gray"
+                android:layout_below="@+id/heading_clinic_name"
+                android:layout_marginLeft="15dp"/>
+            -->
+
+            <TextView
+                android:id="@+id/heading_clinic_area"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:layout_below="@+id/heading_clinic_name"
+                android:layout_marginLeft="15dp"/>
+
+            <View
+                android:layout_width="match_parent"
+                android:id="@+id/doc_prof_div9"
+                android:layout_height="1dp"
+                android:layout_marginTop="1dp"
+                android:background="@android:color/darker_gray"
+                android:layout_below="@+id/heading_clinic_area"
+                android:layout_marginLeft="15dp"/>
+
+            <LinearLayout
+                android:id="@+id/listDocSchedule"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/doc_prof_div9"
+                android:orientation="vertical"
+                android:layout_marginLeft="30dp">
+
+            </LinearLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:id="@+id/doc_prof_div10"
+                android:layout_height="1dp"
+                android:layout_marginTop="1dp"
+                android:background="@android:color/darker_gray"
+                android:layout_below="@+id/listDocSchedule"
+                android:layout_marginLeft="15dp"/>
+
+            <TextView
+                android:id="@+id/clinic_contact"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="#212121"
+                android:text="Contact for Details"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:layout_below="@+id/doc_prof_div10"
+                android:layout_marginLeft="15dp"/>
+
+            <View
+                android:layout_width="match_parent"
+                android:id="@+id/doc_prof_div11"
+                android:layout_height="1dp"
+                android:layout_marginTop="1dp"
+                android:background="@android:color/darker_gray"
+                android:layout_below="@+id/clinic_contact"
+                android:layout_marginLeft="15dp"/>
+
+            <LinearLayout
+                android:id="@+id/listClinicContacts"
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/doc_prof_div11"
+                android:layout_marginLeft="30dp">
+
+            </LinearLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:id="@+id/doc_prof_div12"
+                android:layout_height="1dp"
+                android:layout_marginTop="1dp"
+                android:background="@android:color/darker_gray"
+                android:layout_below="@+id/listClinicContacts"/>
+
+
+
+        </RelativeLayout>
+
+    </ScrollView>
+    </LinearLayout>
+</android.support.design.widget.CoordinatorLayout>

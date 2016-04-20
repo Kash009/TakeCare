@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">TakeCare</string>
+    <string name="action_settings">Settings</string>
+    
+    <string-array name="gender_array">
+        <item>Male Only</item>
+        <item>Female Only</item>
+        <item>Both</item>
+    </string-array>
+</resources>

@@ -1,0 +1,1137 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <Doctor id="1" name="Aamir Hameed Khan " category="Dermatologist">
+        <exp>11</exp>
+        <likes>255</likes>
+        <location>Clifton Medical Services</location>
+        <area>Clifton</area>
+        <qualification>FCPS (Cardiology), College of Physicians and Surgeons(2005)</qualification>
+        <qualification>FCPS (Medicine), College of Physicians and Surgeons(2001)</qualification>
+        <qualification>MBBS, Rawalpindi Medical College(1992)</qualification>
+        <speciality>arrhythmia</speciality>
+        <speciality>pacemakers</speciality>
+        <speciality>defibrillators</speciality>
+        <fee>800</fee>
+        <schedule name="Clifton Medical Services">
+            <loc>Clifton</loc>
+            <day str="Tue">
+                <time>2:00PM-7:00AM</time>
+            </day>
+            <day str="Fri">
+                <time>9:00PM-11:30AM</time>
+            </day>
+            <day str="Mon">
+                <time>5:00PM-7:30AM</time>
+            </day>
+            <day str="Thurs">
+                <time>2:00PM-5:00AM</time>
+            </day>
+            <phone>Not Available</phone>
+        </schedule>
+    </Doctor>
+
+    <Doctor id="2" name="Aamir Mustafa Jafaray" category="Dermatologist">
+        <exp>7</exp>
+        <likes>234</likes>
+        <location>Community Health Centre</location>
+        <area>Johar</area>
+        <qualification>FRCS, Royal College of Surgeons of Edinburgh</qualification>
+        <qualification>FCPS, College of Physicians and Surgeons or Pakistan</qualification>
+        <qualification>Master of Bioethics, Sindh Institute of Medical Sciences</qualification>
+        <qualification>MBBS, Dow Medical College, University of Karachi</qualification>
+        <speciality>General Surgery</speciality>
+        <fee>1200</fee>
+        <schedule name="Community Health Centre">
+            <loc>Johar</loc>
+            <day str="Sat">
+                <time>9:45-1:00</time>
+            </day>
+            <day str="Tue">
+                <time>2:00-4:00</time>
+            </day>
+            <day str="Wed">
+            <time>5:00-7:00</time>
+        </day>
+        </schedule>
+        <phone>34861490</phone>
+    </Doctor>
+
+    <Doctor id="3" name="Syed Shoaib Iqbal" category="Dermatologist">
+        <exp>5</exp>
+        <likes>134</likes>
+        <location>SMS Hospital</location>
+        <area>karachi Airport</area>
+        <qualification>FRCS, Royal College of Surgeons of Edinburgh</qualification>
+        <qualification>Master of Bioethics, Sindh Institute of Medical Sciences</qualification>
+        <qualification>MBBS, Dow Medical College, University of Karachi</qualification>
+        <speciality>spec1</speciality>
+        <speciality>spec2</speciality>
+        <fee>800</fee>
+        <schedule name="Clinic">
+            <loc>Community Health Centre</loc>
+            <day str="Mon-Thur">
+                <time>8:00-1:00</time>
+            </day>
+            <day str="Sat">
+                <time>10:00-3:00</time>
+            </day>
+        </schedule>
+    </Doctor>
+
+    <Doctor id="4" name="Syed Saqib Iqbal" category="Dermatologist">
+        <exp>6</exp>
+        <likes>5234</likes>
+        <location>SMS Hospital</location>
+        <area>Baldia Town </area>
+        <qualification>FCPS, College of Physicians and Surgeons or Pakistan</qualification>
+        <qualification>Master of Bioethics, Sindh Institute of Medical Sciences</qualification>
+        <qualification>MBBS, Dow Medical College, University of Karachi</qualification>
+        <speciality>spec1</speciality>
+        <speciality>spec2</speciality>
+        <fee>800</fee>
+        <schedule name="SMS Hospital">
+            <loc>Community Health Centre</loc>
+            <day str="Mon-Thur">
+                <time>8:00-1:00</time>
+            </day>
+            <day str="Sat">
+                <time>10:00-3:00</time>
+            </day>
+        </schedule>
+    </Doctor>
+
+    <Doctor id="5" name="Rahim Jiwani" category="Dermatologist">
+        <exp>12</exp>
+        <likes>654</likes>
+        <location>SMS Hospital</location>
+        <area>Board of Secondary Education</area>
+        <qualification>FRCS, Royal College of Surgeons of Edinburgh</qualification>
+        <qualification>FCPS, College of Physicians and Surgeons or Pakistan</qualification>
+        <qualification>MBBS, Dow Medical College, University of Karachi</qualification>
+        <speciality>spec1</speciality>
+        <speciality>spec2</speciality>
+        <fee>800</fee>
+        <schedule name="Clinic">
+            <loc>Community Health Centre</loc>
+            <day str="Mon-Thur">
+                <time>8:00-1:00</time>
+            </day>
+            <day str="Sat">
+                <time>10:00-3:00</time>
+            </day>
+        </schedule>
+    </Doctor>
+
+
+    <Doctor id="6" name="Danish Sikander" category="Neurologist">
+        <exp>17</exp>
+        <likes>3443</likes>
+        <location>SMS Hospital</location>
+        <area>Karachi Cantt</area>
+        <qualification>FRCS, Royal College of Surgeons of Edinburgh</qualification>
+        <qualification>FCPS, College of Physicians and Surgeons or Pakistan</qualification>
+        <qualification>MBBS, Dow Medical College, University of Karachi</qualification>
+        <speciality>spec1</speciality>
+        <speciality>spec2</speciality>
+        <fee>800</fee>
+        <schedule name="Clinic">
+            <loc>Community Health Centre</loc>
+            <day str="Mon-Thur">
+                <time>8:00-1:00</time>
+            </day>
+            <day str="Sat">
+                <time>10:00-3:00</time>
+            </day>
+        </schedule>
+    </Doctor>
+
+    <Doctor id="7" name="Mohib Ahmed" category="Neurologist">
+        <exp>13</exp>
+        <likes>2376</likes>
+        <location>SMS Hospital</location>
+        <area>COD</area>
+        <qualification>FRCS, Royal College of Surgeons of Edinburgh</qualification>
+        <qualification>FCPS, College of Physicians and Surgeons or Pakistan</qualification>
+        <qualification>MBBS, Dow Medical College, University of Karachi</qualification>
+        <speciality>spec1</speciality>
+        <speciality>spec2</speciality>
+        <fee>800</fee>
+        <schedule name="Clinic">
+            <loc>Community Health Centre</loc>
+            <day str="Mon-Thur">
+                <time>8:00-1:00</time>
+            </day>
+            <day str="Sat">
+                <time>10:00-3:00</time>
+            </day>
+        </schedule>
+    </Doctor>
+
+    <Doctor id="8" name="Monis Ahmed Siddique" category="Neurologist">
+        <exp>5</exp>
+        <likes>432</likes>
+        <location>SMS Hospital</location>
+        <area>Darul-uloom</area>
+        <qualification>FRCS, Royal College of Surgeons of Edinburgh</qualification>
+        <qualification>FCPS, College of Physicians and Surgeons or Pakistan</qualification>
+        <qualification>MBBS, Dow Medical College, University of Karachi</qualification>
+        <speciality>spec1</speciality>
+        <speciality>spec2</speciality>
+        <fee>800</fee>
+        <schedule name="Clinic">
+            <loc>Community Health Centre</loc>
+            <day str="Mon-Thur">
+                <time>8:00-1:00</time>
+            </day>
+            <day str="Sat">
+                <time>10:00-3:00</time>
+            </day>
+        </schedule>
+    </Doctor>
+
+    <Doctor id="9" name="Waqar Shaikh" category="Neurologist">
+        <exp>7</exp>
+        <likes>897</likes>
+        <location>SMS Hospital</location>
+        <area>Defence Society</area>
+        <qualification>FRCS, Royal College of Surgeons of Edinburgh</qualification>
+        <qualification>FCPS, College of Physicians and Surgeons or Pakistan</qualification>
+        <qualification>MBBS, Dow Medical College, University of Karachi</qualification>
+        <speciality>spec1</speciality>
+        <speciality>spec2</speciality>
+        <fee>800</fee>
+        <schedule name="Clinic">
+            <loc>Community Health Centre</loc>
+            <day str="Mon-Thur">
+                <time>8:00-1:00</time>
+            </day>
+            <day str="Sat">
+                <time>10:00-3:00</time>
+            </day>
+        </schedule>
+    </Doctor>
+
+
+    <Doctor id="10" name="Muhammad Umer" category="Neurologist">
+        <exp>10</exp>
+        <likes>1002</likes>
+        <location>SMS Hospital</location>
+        <area>Export Processing Zone</area>
+        <qualification>FRCS, Royal College of Surgeons of Edinburgh</qualification>
+        <qualification>FCPS, College of Physicians and Surgeons or Pakistan</qualification>
+        <qualification>MBBS, Dow Medical College, University of Karachi</qualification>
+        <speciality>spec1</speciality>
+        <speciality>spec2</speciality>
+        <fee>800</fee>
+        <schedule name="Clinic">
+            <loc>Community Health Centre</loc>
+            <day str="Mon-Thur">
+                <time>8:00-1:00</time>
+            </day>
+            <day str="Sat">
+                <time>10:00-3:00</time>
+            </day>
+        </schedule>
+    </Doctor>
+
+
+    <Doctor id="11" name="Umer Ayub Arain" category="General Physician">
+        <exp>7</exp>
+        <likes>234</likes>
+        <location>SMS Hospital</location>
+        <area>Johar</area>
+        <qualification>FRCS, Royal College of Surgeons of Edinburgh</qualification>
+        <qualification>FCPS, College of Physicians and Surgeons or Pakistan</qualification>
+        <qualification>MBBS, Dow Medical College, University of Karachi</qualification>
+        <speciality>spec1</speciality>
+        <speciality>spec2</speciality>
+        <fee>800</fee>
+        <schedule name="Clinic">
+            <loc>Community Health Centre</loc>
+            <day str="Mon-Thur">
+                <time>8:00-1:00</time>
+            </day>
+            <day str="Sat">
+                <time>10:00-3:00</time>
+            </day>
+        </schedule>
+    </Doctor>
+
+    <Doctor id="12" name="Hareem Ajaz" category="General Physician">
+        <exp>12</exp>
+        <likes>2676</likes>
+        <location>SMS Hospital</location>
+        <area>Johar</area>
+        <qualification>Fellowship, Royal College of Physicians, Edinburgh UK, 1986</qualification>
+        <qualification>Diploma in Tropical Medicine and Hygiene, UK, 1962</qualification>
+        <qualification>Diploma in Child Health, Glasgow, UK, 1962</qualification>
+        <qualification>MBBS, Dow Medical College, 1959</qualification>
+        <speciality>spec1</speciality>
+        <speciality>spec2</speciality>
+        <fee>800</fee>
+        <schedule name="Clinic">
+            <loc>Community Health Centre</loc>
+            <day str="Mon-Thur">
+                <time>8:00-1:00</time>
+            </day>
+            <day str="Sat">
+                <time>10:00-3:00</time>
+            </day>
+        </schedule>
+    </Doctor>
+
+    <Doctor id="13" name="Munazza Jamal" category="General Physician">
+        <exp>13</exp>
+        <likes>2139</likes>
+        <location>SMS Hospital</location>
+        <area>Gulshan</area>
+        <qualification>Fellowship, Royal College of Physicians, Edinburgh UK, 1986</qualification>
+        <qualification>Diploma in Child Health, Glasgow, UK, 1962</qualification>
+        <qualification>MBBS, Dow Medical College, 1959</qualification><speciality>spec1</speciality>
+        <speciality>spec2</speciality>
+        <fee>800</fee>
+        <schedule name="Clinic">
+            <loc>Community Health Centre</loc>
+            <day str="Mon-Thur">
+                <time>8:00-1:00</time>
+            </day>
+            <day str="Sat">
+                <time>10:00-3:00</time>
+            </day>
+        </schedule>
+    </Doctor>
+
+    <Doctor id="14" name="khatija hassan" category="General Physician">
+        <exp>14</exp>
+        <likes>354</likes>
+        <location>SMS Hospital</location>
+        <area>Federal B Area</area>
+        <qualification>Fellowship, Royal College of Physicians, Edinburgh UK, 1986</qualification>
+        <qualification>Diploma in Tropical Medicine and Hygiene, UK, 1962</qualification>
+        <qualification>Diploma in Child Health, Glasgow, UK, 1962</qualification>
+        <qualification>MBBS, Dow Medical College, 1959</qualification><speciality>spec1</speciality>
+        <speciality>spec2</speciality>
+        <fee>800</fee>
+        <schedule name="Clinic">
+            <loc>Community Health Centre</loc>
+            <day str="Mon-Thur">
+                <time>8:00-1:00</time>
+            </day>
+            <day str="Sat">
+                <time>10:00-3:00</time>
+            </day>
+        </schedule>
+    </Doctor>
+
+    <Doctor id="15" name="Uzair Rajput" category="General Physician">
+        <exp>3</exp>
+        <likes>765</likes>
+        <location>SMS Hospital</location>
+        <area>Keemari </area>
+        <qualification>Fellowship, Royal College of Physicians, Edinburgh UK, 1986</qualification>
+        <qualification>Diploma in Tropical Medicine and Hygiene, UK, 1962</qualification>
+        <qualification>Diploma in Child Health, Glasgow, UK, 1962</qualification>
+        <qualification>MBBS, Dow Medical College, 1959</qualification><speciality>spec1</speciality>
+        <speciality>spec2</speciality>
+        <fee>800</fee>
+        <schedule name="Clinic">
+            <loc>Community Health Centre</loc>
+            <day str="Mon-Thur">
+                <time>8:00-1:00</time>
+            </day>
+            <day str="Sat">
+                <time>10:00-3:00</time>
+            </day>
+        </schedule>
+    </Doctor>
+
+    <Doctor id="16" name="Tehreem Ali" category="Nephrologist">
+        <exp>13</exp>
+        <likes>2097</likes>
+        <location>SMS Hospital</location>
+        <area>Liyari</area>
+        <qualification>FRCS, Royal College of Surgeons of Edinburgh</qualification>
+        <qualification>FCPS, College of Physicians and Surgeons or Pakistan</qualification>
+        <qualification>MBBS, Dow Medical College, University of Karachi</qualification>
+        <speciality>spec1</speciality>
+        <speciality>spec2</speciality>
+        <fee>800</fee>
+        <schedule name="Clinic">
+            <loc>Community Health Centre</loc>
+            <day str="Mon-Thur">
+                <time>8:00-1:00</time>
+            </day>
+            <day str="Sat">
+                <time>10:00-3:00</time>
+            </day>
+        </schedule>
+    </Doctor>
+
+    <Doctor id="17" name="Irtiza hammad" category="Nephrologist">
+        <exp>7</exp>
+        <likes>2271</likes>
+        <location>SMS Hospital</location>
+        <area>karachi Airport</area>
+        <qualification>FRCS, Royal College of Surgeons of Edinburgh</qualification>
+        <qualification>FCPS, College of Physicians and Surgeons or Pakistan</qualification>
+        <qualification>MBBS, Dow Medical College, University of Karachi</qualification>
+        <speciality>spec1</speciality>
+        <speciality>spec2</speciality>
+        <fee>800</fee>
+        <schedule name="Clinic">
+            <loc>Community Health Centre</loc>
+            <day str="Mon-Thur">
+                <time>8:00-1:00</time>
+            </day>
+            <day str="Sat">
+                <time>10:00-3:00</time>
+            </day>
+        </schedule>
+    </Doctor>
+
+    <Doctor id="18" name="Usman Aziz" category="Nephrologist">
+        <exp>9</exp>
+        <likes>2294</likes>
+        <location>SMS Hospital</location>
+        <area>Baldia Town </area>
+        <qualification>Diplomate, American Board of Surgery</qualification>
+        <qualification>MBBS, Aga Khan University, Pakistan</qualification>
+        <speciality>spec1</speciality>
+        <speciality>spec2</speciality>
+        <fee>800</fee>
+        <schedule name="Clinic">
+            <loc>Community Health Centre</loc>
+            <day str="Mon-Thur">
+                <time>8:00-1:00</time>
+            </day>
+            <day str="Sat">
+                <time>10:00-3:00</time>
+            </day>
+        </schedule>
+    </Doctor>
+
+    <Doctor id="19" name="Ayub Ahmed" category="Nephrologist">
+        <exp>4</exp>
+        <likes>2211</likes>
+        <location>SMS Hospital</location>
+        <area>Board of Secondary Education</area>
+        <qualification>FRCS, Royal College of Surgeons of Edinburgh</qualification>
+        <qualification>FCPS, College of Physicians and Surgeons or Pakistan</qualification>
+        <qualification>MBBS, Dow Medical College, University of Karachi</qualification>
+        <speciality>spec1</speciality>
+        <speciality>spec2</speciality>
+        <fee>800</fee>
+        <schedule name="Clinic">
+            <loc>Community Health Centre</loc>
+            <day str="Mon-Thur">
+                <time>8:00-1:00</time>
+            </day>
+            <day str="Sat">
+                <time>10:00-3:00</time>
+            </day>
+        </schedule>
+    </Doctor>
+
+    <Doctor id="20" name="Rasim hassan" category="Nephrologist">
+        <exp>8</exp>
+        <likes>899</likes>
+        <location>SMS Hospital</location>
+        <area>Karachi Cantt </area>
+        <qualification>FRCS, Royal College of Surgeons of Edinburgh</qualification>
+        <qualification>FCPS, College of Physicians and Surgeons or Pakistan</qualification>
+        <qualification>MBBS, Dow Medical College, University of Karachi</qualification>
+        <speciality>spec1</speciality>
+        <speciality>spec2</speciality>
+        <fee>800</fee>
+        <schedule name="Clinic">
+            <loc>Community Health Centre</loc>
+            <day str="Mon-Thur">
+                <time>8:00-1:00</time>
+            </day>
+            <day str="Sat">
+                <time>10:00-3:00</time>
+            </day>
+        </schedule>
+    </Doctor>
+
+    <Doctor id="21" name="Munib Ahmed" category="General Surgeon">
+        <exp>4</exp>
+        <likes>5466</likes>
+        <location>SMS Hospital</location>
+        <area>City GPO</area>
+        <qualification>FRCS, Royal College of Surgeons of Edinburgh</qualification>
+        <qualification>FCPS, College of Physicians and Surgeons or Pakistan</qualification>
+        <qualification>MBBS, Dow Medical College, University of Karachi</qualification>
+        <speciality>spec1</speciality>
+        <speciality>spec2</speciality>
+        <fee>800</fee>
+        <schedule name="Clinic">
+            <loc>Community Health Centre</loc>
+            <day str="Mon-Thur">
+                <time>8:00-1:00</time>
+            </day>
+            <day str="Sat">
+                <time>10:00-3:00</time>
+            </day>
+        </schedule>
+    </Doctor>
+
+    <Doctor id="22" name="bashir Riaz" category="General Surgeon">
+        <exp>3</exp>
+        <likes>6543</likes>
+        <location>SMS Hospital</location>
+        <area>Clifton</area>
+        <qualification>FRCS, Royal College of Surgeons of Edinburgh</qualification>
+        <qualification>FCPS, College of Physicians and Surgeons or Pakistan</qualification>
+        <qualification>MBBS, Dow Medical College, University of Karachi</qualification>
+        <speciality>spec1</speciality>
+        <speciality>spec2</speciality>
+        <fee>800</fee>
+        <schedule name="Clinic">
+            <loc>Community Health Centre</loc>
+            <day str="Mon-Thur">
+                <time>8:00-1:00</time>
+            </day>
+            <day str="Sat">
+                <time>10:00-3:00</time>
+            </day>
+        </schedule>
+    </Doctor>
+
+    <Doctor id="23" name="Razaq niazi" category="General Surgeon">
+        <exp>4</exp>
+        <likes>5434</likes>
+        <location>SMS Hospital</location>
+        <area>COD </area>
+        <qualification>FRCS, Royal College of Surgeons of Edinburgh</qualification>
+        <qualification>FCPS, College of Physicians and Surgeons or Pakistan</qualification>
+        <qualification>MBBS, Dow Medical College, University of Karachi</qualification>
+        <speciality>spec1</speciality>
+        <speciality>spec2</speciality>
+        <fee>800</fee>
+        <schedule name="Clinic">
+            <loc>Community Health Centre</loc>
+            <day str="Mon-Thur">
+                <time>8:00-1:00</time>
+            </day>
+            <day str="Sat">
+                <time>10:00-3:00</time>
+            </day>
+        </schedule>
+    </Doctor>
+
+    <Doctor id="24" name="Qasim Manzoor" category="General Surgeon">
+        <exp>6</exp>
+        <likes>6754</likes>
+        <location>SMS Hospital</location>
+        <area>Darul-uloom</area>
+        <qualification>FRCS, Royal College of Surgeons of Edinburgh</qualification>
+        <qualification>FCPS, College of Physicians and Surgeons or Pakistan</qualification>
+        <qualification>MBBS, Dow Medical College, University of Karachi</qualification>
+        <speciality>spec1</speciality>
+        <speciality>spec2</speciality>
+        <fee>800</fee>
+        <schedule name="Clinic">
+            <loc>Community Health Centre</loc>
+            <day str="Mon-Thur">
+                <time>8:00-1:00</time>
+            </day>
+            <day str="Sat">
+                <time>10:00-3:00</time>
+            </day>
+        </schedule>
+    </Doctor>
+
+    <Doctor id="25" name="Manzoor Ahmed" category="General Surgeon">
+        <exp>8</exp>
+        <likes>543</likes>
+        <location>SMS Hospital</location>
+        <area>Defence Society </area>
+        <qualification>FRCS, Royal College of Surgeons of Edinburgh</qualification>
+        <qualification>FCPS, College of Physicians and Surgeons or Pakistan</qualification>
+        <qualification>MBBS, Dow Medical College, University of Karachi</qualification>
+        <speciality>spec1</speciality>
+        <speciality>spec2</speciality>
+        <fee>800</fee>
+        <schedule name="Clinic">
+            <loc>Community Health Centre</loc>
+            <day str="Mon-Thur">
+                <time>8:00-1:00</time>
+            </day>
+            <day str="Sat">
+                <time>10:00-3:00</time>
+            </day>
+        </schedule>
+    </Doctor>
+
+    <Doctor id="26" name="Riaz Nadeem" category="Dentist">
+        <exp>6</exp>
+        <likes>6644</likes>
+        <location>SMS Hospital</location>
+        <area>Export Processing Zone</area>
+        <qualification>FRCS, Royal College of Surgeons of Edinburgh</qualification>
+        <qualification>FCPS, College of Physicians and Surgeons or Pakistan</qualification>
+        <qualification>MBBS, Dow Medical College, University of Karachi</qualification>
+        <speciality>spec1</speciality>
+        <speciality>spec2</speciality>
+        <fee>800</fee>
+        <schedule name="Clinic">
+            <loc>Community Health Centre</loc>
+            <day str="Mon-Thur">
+                <time>8:00-1:00</time>
+            </day>
+            <day str="Sat">
+                <time>10:00-3:00</time>
+            </day>
+        </schedule>
+    </Doctor>
+
+    <Doctor id="27" name="Zubair junaid" category="Dentist">
+        <exp>5</exp>
+        <likes>9002</likes>
+        <location>SMS Hospital</location>
+        <area>Federal B Area</area>
+        <qualification>FRCS, Royal College of Surgeons of Edinburgh</qualification>
+        <qualification>FCPS, College of Physicians and Surgeons or Pakistan</qualification>
+        <qualification>MBBS, Dow Medical College, University of Karachi</qualification>
+        <speciality>spec1</speciality>
+        <speciality>spec2</speciality>
+        <fee>800</fee>
+        <schedule name="Clinic">
+            <loc>Community Health Centre</loc>
+            <day str="Mon-Thur">
+                <time>8:00-1:00</time>
+            </day>
+            <day str="Sat">
+                <time>10:00-3:00</time>
+            </day>
+        </schedule>
+    </Doctor>
+
+
+    <Doctor id="28" name="Rohan malik" category="Dentist">
+        <exp>1</exp>
+        <likes>1555</likes>
+        <location>SMS Hospital</location>
+        <area>Gulshan-e-Iqbal</area>
+        <qualification>FRCS, Royal College of Surgeons of Edinburgh</qualification>
+        <qualification>FCPS, College of Physicians and Surgeons or Pakistan</qualification>
+        <qualification>MBBS, Dow Medical College, University of Karachi</qualification>
+        <speciality>spec1</speciality>
+        <speciality>spec2</speciality>
+        <fee>800</fee>
+        <schedule name="Clinic">
+            <loc>Community Health Centre</loc>
+            <day str="Mon-Thur">
+                <time>8:00-1:00</time>
+            </day>
+            <day str="Sat">
+                <time>10:00-3:00</time>
+            </day>
+        </schedule>
+    </Doctor>
+
+
+    <Doctor id="29" name="Narmeen Dawood" category="Dentist">
+        <exp>4</exp>
+        <likes>5755</likes>
+        <location>SMS Hospital</location>
+        <area>Johar</area>
+        <qualification>FRCS, Royal College of Surgeons of Edinburgh</qualification>
+        <qualification>FCPS, College of Physicians and Surgeons or Pakistan</qualification>
+        <qualification>MBBS, Dow Medical College, University of Karachi</qualification>
+        <speciality>spec1</speciality>
+        <speciality>spec2</speciality>
+        <fee>800</fee>
+        <schedule name="Clinic">
+            <loc>Community Health Centre</loc>
+            <day str="Mon-Thur">
+                <time>8:00-1:00</time>
+            </day>
+            <day str="Sat">
+                <time>10:00-3:00</time>
+            </day>
+        </schedule>
+    </Doctor>
+
+    <Doctor id="30" name="Nurain ajmal" category="Dentist">
+        <exp>3</exp>
+        <likes>2283</likes>
+        <location>SMS Hospital</location>
+        <area>Habib Bank</area>
+        <qualification>FRCS, Royal College of Surgeons of Edinburgh</qualification>
+        <qualification>FCPS, College of Physicians and Surgeons or Pakistan</qualification>
+        <qualification>MBBS, Dow Medical College, University of Karachi</qualification>
+        <speciality>spec1</speciality>
+        <speciality>spec2</speciality>
+        <fee>800</fee>
+        <schedule name="Clinic">
+            <loc>Community Health Centre</loc>
+            <day str="Mon-Thur">
+                <time>8:00-1:00</time>
+            </day>
+            <day str="Sat">
+                <time>10:00-3:00</time>
+            </day>
+        </schedule>
+    </Doctor>
+
+
+    <Doctor id="31" name="hammad sultan" category="Radiologist">
+        <exp>6</exp>
+        <likes>6696</likes>
+        <location>SMS Hospital</location>
+        <area>Hotel Metropole</area>
+        <qualification>FRCS, Royal College of Surgeons of Edinburgh</qualification>
+        <qualification>FCPS, College of Physicians and Surgeons or Pakistan</qualification>
+        <qualification>MBBS, Dow Medical College, University of Karachi</qualification>
+        <speciality>spec1</speciality>
+        <speciality>spec2</speciality>
+        <fee>800</fee>
+        <schedule name="Clinic">
+            <loc>Community Health Centre</loc>
+            <day str="Mon-Thur">
+                <time>8:00-1:00</time>
+            </day>
+            <day str="Sat">
+                <time>10:00-3:00</time>
+            </day>
+        </schedule>
+    </Doctor>
+
+    <Doctor id="32" name="Tulsi Das Khatri" category="Radiologist">
+        <exp>11</exp>
+        <likes>2342</likes>
+        <location>SMS Hospital</location>
+        <area>Jinnah Post Graduate Medical Center</area>
+        <qualification>FRCS, Royal College of Surgeons of Edinburgh</qualification>
+        <qualification>FCPS, College of Physicians and Surgeons or Pakistan</qualification>
+        <qualification>MBBS, Dow Medical College, University of Karachi</qualification>
+        <speciality>spec1</speciality>
+        <speciality>spec2</speciality>
+        <fee>800</fee>
+        <schedule name="Clinic">
+            <loc>Community Health Centre</loc>
+            <day str="Mon-Thur">
+                <time>8:00-1:00</time>
+            </day>
+            <day str="Sat">
+                <time>10:00-3:00</time>
+            </day>
+        </schedule>
+    </Doctor>
+
+
+    <Doctor id="33" name="Karim Jiwani" category="Radiologist">
+        <exp>6</exp>
+        <likes>3232</likes>
+        <location>SMS Hospital</location>
+        <area>Landhi Colony</area>
+        <qualification>FRCS, Royal College of Surgeons of Edinburgh</qualification>
+        <qualification>FCPS, College of Physicians and Surgeons or Pakistan</qualification>
+        <qualification>MBBS, Dow Medical College, University of Karachi</qualification>
+        <speciality>spec1</speciality>
+        <speciality>spec2</speciality>
+        <fee>800</fee>
+        <schedule name="Clinic">
+            <loc>Community Health Centre</loc>
+            <day str="Mon-Thur">
+                <time>8:00-1:00</time>
+            </day>
+            <day str="Sat">
+                <time>10:00-3:00</time>
+            </day>
+        </schedule>
+    </Doctor>
+
+
+    <Doctor id="34" name="Iqbal Sharifani" category="Radiologist">
+        <exp>4</exp>
+        <likes>6546</likes>
+        <location>SMS Hospital</location>
+        <area>Keemari</area>
+        <qualification>FRCS, Royal College of Surgeons of Edinburgh</qualification>
+        <qualification>FCPS, College of Physicians and Surgeons or Pakistan</qualification>
+        <qualification>MBBS, Dow Medical College, University of Karachi</qualification>
+        <speciality>spec1</speciality>
+        <speciality>spec2</speciality>
+        <fee>800</fee>
+        <schedule name="Clinic">
+            <loc>Community Health Centre</loc>
+            <day str="Mon-Thur">
+                <time>8:00-1:00</time>
+            </day>
+            <day str="Sat">
+                <time>10:00-3:00</time>
+            </day>
+        </schedule>
+    </Doctor>
+
+
+    <Doctor id="35" name="Siddique Ahmed Monis" category="Radiologist">
+        <exp>5</exp>
+        <likes>3213</likes>
+        <location>SMS Hospital</location>
+        <area>Johar</area>
+        <qualification>FRCS, Royal College of Surgeons of Edinburgh</qualification>
+        <qualification>FCPS, College of Physicians and Surgeons or Pakistan</qualification>
+        <qualification>MBBS, Dow Medical College, University of Karachi</qualification>
+        <speciality>spec1</speciality>
+        <speciality>spec2</speciality>
+        <fee>800</fee>
+        <schedule name="Clinic">
+            <loc>Community Health Centre</loc>
+            <day str="Mon-Thur">
+                <time>8:00-1:00</time>
+            </day>
+            <day str="Sat">
+                <time>10:00-3:00</time>
+            </day>
+        </schedule>
+    </Doctor>
+
+
+    <Doctor id="36" name="Abdul Rehman Salman" category="Oncologist">
+        <exp>3</exp>
+        <likes>2132</likes>
+        <location>SMS Hospital</location>
+        <area>Liyari</area>
+        <qualification>Diplomate American Board of Oncology, 2011</qualification>
+        <qualification>Diplomate American Board of Internal Medicine, 2007</qualification>
+        <qualification>PhD, Immunology, Rush University Chicago USA, 2005</qualification>
+        <qualification>MBBS, Dow Medical College, 1992</qualification>
+        <speciality>spec1</speciality>
+        <speciality>spec2</speciality>
+        <fee>800</fee>
+        <schedule name="Clinic">
+            <loc>Community Health Centre</loc>
+            <day str="Mon-Thur">
+                <time>8:00-1:00</time>
+            </day>
+            <day str="Sat">
+                <time>10:00-3:00</time>
+            </day>
+        </schedule>
+    </Doctor>
+
+
+    <Doctor id="37" name="Ubaid Khan" category="Oncologist">
+        <exp>13</exp>
+        <likes>2343</likes>
+        <location>SMS Hospital</location>
+        <area>Malir Cantt</area>
+        <qualification>Diplomate American Board of Internal Medicine, 2007</qualification>
+        <qualification>PhD, Immunology, Rush University Chicago USA, 2005</qualification>
+        <qualification>MBBS, Dow Medical College, 1992</qualification>
+        <speciality>spec1</speciality>
+        <speciality>spec2</speciality>
+        <fee>800</fee>
+        <schedule name="Clinic">
+            <loc>Community Health Centre</loc>
+            <day str="Mon-Thur">
+                <time>8:00-1:00</time>
+            </day>
+            <day str="Sat">
+                <time>10:00-3:00</time>
+            </day>
+        </schedule>
+    </Doctor>
+
+
+    <Doctor id="38" name="Dureshana Sachwani" category="Oncologist">
+        <exp>2</exp>
+        <likes>6546</likes>
+        <location>SMS Hospital</location>
+        <area>Malir Cantt</area>
+        <qualification>Diplomate American Board of Oncology, 2011</qualification>
+        <qualification>PhD, Immunology, Rush University Chicago USA, 2005</qualification>
+        <qualification>MBBS, Dow Medical College, 1992</qualification>
+        <speciality>spec1</speciality>
+        <speciality>spec2</speciality>
+        <fee>800</fee>
+        <schedule name="Clinic">
+            <loc>Community Health Centre</loc>
+            <day str="Mon-Thur">
+                <time>8:00-1:00</time>
+            </day>
+            <day str="Sat">
+                <time>10:00-3:00</time>
+            </day>
+        </schedule>
+    </Doctor>
+
+
+    <Doctor id="39" name="Dilshad raouff" category="Oncologist">
+        <exp>6</exp>
+        <likes>1980</likes>
+        <location>SMS Hospital</location>
+        <area>Karachi Cantt </area>
+        <qualification>Diplomate American Board of Oncology, 2011</qualification>
+        <qualification>Diplomate American Board of Internal Medicine, 2007</qualification>
+        <qualification>MBBS, Dow Medical College, 1992</qualification>
+        <speciality>spec1</speciality>
+        <speciality>spec2</speciality>
+        <fee>800</fee>
+        <schedule name="Clinic">
+            <loc>Community Health Centre</loc>
+            <day str="Mon-Thur">
+                <time>8:00-1:00</time>
+            </day>
+            <day str="Sat">
+                <time>10:00-3:00</time>
+            </day>
+        </schedule>
+    </Doctor>
+
+
+    <Doctor id="40" name="Muhammad Allana" category="Oncologist">
+        <exp>19</exp>
+        <likes>6546</likes>
+        <location>SMS Hospital</location>
+        <area>Darul-uloom </area>
+        <qualification>Diplomate American Board of Oncology, 2011</qualification>
+        <qualification>MBBS, Dow Medical College, 1992</qualification>
+        <speciality>spec1</speciality>
+        <speciality>spec2</speciality>
+        <fee>800</fee>
+        <schedule name="Clinic">
+            <loc>Community Health Centre</loc>
+            <day str="Mon-Thur">
+                <time>8:00-1:00</time>
+            </day>
+            <day str="Sat">
+                <time>10:00-3:00</time>
+            </day>
+        </schedule>
+    </Doctor>
+
+
+    <Doctor id="41" name="Kiran Jafferani" category="Cardiologist">
+        <exp>7</exp>
+        <likes>8498</likes>
+        <location>SMS Hospital</location>
+        <area>Board of Secondary Education</area>
+        <qualification>Diplomate American Board of Oncology, 2011</qualification>
+        <qualification>Diplomate American Board of Internal Medicine, 2007</qualification>
+        <qualification>PhD, Immunology, Rush University Chicago USA, 2005</qualification>
+        <qualification>MBBS, Dow Medical College, 199</qualification>
+        <speciality>spec1</speciality>
+        <speciality>spec2</speciality>
+        <fee>800</fee>
+        <schedule name="Clinic">
+            <loc>Community Health Centre</loc>
+            <day str="Mon-Thur">
+                <time>8:00-1:00</time>
+            </day>
+            <day str="Sat">
+                <time>10:00-3:00</time>
+            </day>
+        </schedule>
+    </Doctor>
+
+
+    <Doctor id="42" name="Shoaib akram" category="Cardiologist">
+        <exp>8</exp>
+        <likes>8932</likes>
+        <location>SMS Hospital</location>
+        <area>Board of Secondary Educatio</area>
+        <qualification>Diplomate American Board of Oncology, 2011</qualification>
+        <qualification>Diplomate American Board of Internal Medicine, 2007</qualification>
+        <qualification>MBBS, Dow Medical College, 199</qualification>
+        <speciality>spec1</speciality>
+        <speciality>spec2</speciality>
+        <fee>800</fee>
+        <schedule name="Clinic">
+            <loc>Community Health Centre</loc>
+            <day str="Mon-Thur">
+                <time>8:00-1:00</time>
+            </day>
+            <day str="Sat">
+                <time>10:00-3:00</time>
+            </day>
+        </schedule>
+    </Doctor>
+
+
+    <Doctor id="43" name="Danish Jawed" category="Cardiologist">
+        <exp>9</exp>
+        <likes>1231</likes>
+        <location>SMS Hospital</location>
+        <area>Defence Society </area>
+        <qualification>Diplomate American Board of Oncology, 2011</qualification>
+        <qualification>MBBS, Dow Medical College, 199</qualification>
+        <speciality>spec1</speciality>
+        <speciality>spec2</speciality>
+        <fee>800</fee>
+        <schedule name="Clinic">
+            <loc>Community Health Centre</loc>
+            <day str="Mon-Thur">
+                <time>8:00-1:00</time>
+            </day>
+            <day str="Sat">
+                <time>10:00-3:00</time>
+            </day>
+        </schedule>
+    </Doctor>
+
+
+    <Doctor id="44" name="Aun Zaidi" category="Cardiologist">
+        <exp>12</exp>
+        <likes>3424</likes>
+        <location>SMS Hospital</location>
+        <area>Defence Society </area>
+        <qualification>Diplomate American Board of Oncology, 2011</qualification>
+        <qualification>Diplomate American Board of Internal Medicine, 2007</qualification>
+        <qualification>MBBS, Dow Medical College, 199</qualification>
+        <speciality>spec1</speciality>
+        <speciality>spec2</speciality>
+        <fee>800</fee>
+        <schedule name="Clinic">
+            <loc>Community Health Centre</loc>
+            <day str="Mon-Thur">
+                <time>8:00-1:00</time>
+            </day>
+            <day str="Sat">
+                <time>10:00-3:00</time>
+            </day>
+        </schedule>
+    </Doctor>
+
+
+    <Doctor id="45" name="Jaffer Raza Zaidi" category="Cardiologist">
+        <exp>3</exp>
+        <likes>4234</likes>
+        <location>SMS Hospital</location>
+        <area>Johar</area>
+        <qualification>Diplomate American Board of Oncology, 2011</qualification>
+        <qualification>PhD, Immunology, Rush University Chicago USA, 2005</qualification>
+        <qualification>MBBS, Dow Medical College, 199</qualification>
+        <speciality>spec1</speciality>
+        <speciality>spec2</speciality>
+        <fee>800</fee>
+        <schedule name="Clinic">
+            <loc>Community Health Centre</loc>
+            <day str="Mon-Thur">
+                <time>8:00-1:00</time>
+            </day>
+            <day str="Sat">
+                <time>10:00-3:00</time>
+            </day>
+        </schedule>
+    </Doctor>
+
+
+    <Doctor id="46" name="Nayer Mahmud" category="Urologist">
+        <exp>4</exp>
+        <likes>1389</likes>
+        <location>SMS Hospital</location>
+        <area>Johar</area>
+        <qualification>Diplomate American Board of Internal Medicine, 2007</qualification>
+        <qualification>MBBS, Dow Medical College, 199</qualification>
+        <speciality>spec1</speciality>
+        <speciality>spec2</speciality>
+        <fee>800</fee>
+        <schedule name="Clinic">
+            <loc>Community Health Centre</loc>
+            <day str="Mon-Thur">
+                <time>8:00-1:00</time>
+            </day>
+            <day str="Sat">
+                <time>10:00-3:00</time>
+            </day>
+        </schedule>
+    </Doctor>
+
+
+    <Doctor id="47" name="Sajjad Vayani" category="Urologist">
+        <exp>5</exp>
+        <likes>8676</likes>
+        <location>SMS Hospital</location>
+        <area>Federal B Area </area>
+        <qualification>FRCPath, Royal College of Pathologists, UK, 2002</qualification>
+        <qualification>Postgraduate Diploma in Clinical Pathology, University of London, UK, 1986</qualification>
+        <qualification>MBBS, Sindh Medical College, 1989</qualification>
+        <speciality>spec1</speciality>
+        <speciality>spec2</speciality>
+        <fee>800</fee>
+        <schedule name="Clinic">
+            <loc>Community Health Centre</loc>
+            <day str="Mon-Thur">
+                <time>8:00-1:00</time>
+            </day>
+            <day str="Sat">
+                <time>10:00-3:00</time>
+            </day>
+        </schedule>
+    </Doctor>
+
+
+    <Doctor id="48" name="Dawood Haqqani" category="Urologist">
+        <exp>11</exp>
+        <likes>5634</likes>
+        <location>SMS Hospital</location>
+        <area>Habib Bank</area>
+        <qualification>FRCPath, Royal College of Pathologists, UK, 2002</qualification>
+        <qualification>Postgraduate Diploma in Clinical Pathology, University of London, UK, 1986</qualification>
+        <qualification>MBBS, Sindh Medical College, 1989</qualification>
+        <speciality>spec1</speciality>
+        <speciality>spec2</speciality>
+        <fee>800</fee>
+        <schedule name="Clinic">
+            <loc>Community Health Centre</loc>
+            <day str="Mon-Thur">
+                <time>8:00-1:00</time>
+            </day>
+            <day str="Sat">
+                <time>10:00-3:00</time>
+            </day>
+        </schedule>
+    </Doctor>
+
+
+    <Doctor id="49" name="Ghulam Hussain" category="Urologist">
+        <exp>15</exp>
+        <likes>1234</likes>
+        <location>SMS Hospital</location>
+        <area>Liyari </area>
+        <qualification>FRCPath, Royal College of Pathologists, UK, 2002</qualification>
+        <qualification>MBBS, Sindh Medical College, 1989</qualification>
+        <speciality>spec1</speciality>
+        <speciality>spec2</speciality>
+        <fee>800</fee>
+        <schedule name="Clinic">
+            <loc>Community Health Centre</loc>
+            <day str="Mon-Thur">
+                <time>8:00-1:00</time>
+            </day>
+            <day str="Sat">
+                <time>10:00-3:00</time>
+            </day>
+        </schedule>
+    </Doctor>
+
+
+    <Doctor id="50" name="Rahim Janwani" category="Urologist">
+        <exp>5</exp>
+        <likes>4312</likes>
+        <location>SMS Hospital</location>
+        <area>Johar</area>
+        <qualification>Postgraduate Diploma in Clinical Pathology, University of London, UK, 1986</qualification>
+        <qualification>MBBS, Sindh Medical College, 1989</qualification>
+        <speciality>spec1</speciality>
+        <speciality>spec2</speciality>
+        <fee>800</fee>
+        <schedule name="Clinic">
+            <loc>Community Health Centre</loc>
+            <day str="Mon-Thur">
+                <time>8:00-1:00</time>
+            </day>
+            <day str="Sat">
+                <time>10:00-3:00</time>
+            </day>
+        </schedule>
+    </Doctor>
+
+
+
+</resources>

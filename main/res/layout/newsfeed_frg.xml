@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".NewsFeedFragment">
+
+    <ListView
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:divider="#FFEEEEEE"
+        android:dividerHeight="6dp"
+        android:padding="4dp"
+        android:background="@drawable/card_look"
+        android:id="@+id/listViewTips"
+        android:scrollbarStyle="outsideOverlay"
+        android:layout_alignParentBottom="true" />
+</RelativeLayout>
